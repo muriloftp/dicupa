@@ -19,11 +19,11 @@ document.addEventListener("DOMContentLoaded", function () {
         img.style.width = '300px'; // Ajuste o tamanho da imagem conforme necessário
         img.style.marginRight = '20px'; // Espaçamento entre a imagem e o vídeo
 
-        // Cria o iframe com o vídeo e define o tempo de início (por exemplo, 30 segundos)
+        // Cria o iframe com o vídeo
         const iframe = document.createElement('iframe');
         iframe.width = '1080';
         iframe.height = '720';
-        iframe.src = 'https://www.youtube.com/embed/d9BF1JvzE7I?autoplay=1'; // Começa aos 20 segundos
+        iframe.src = 'https://www.youtube.com/embed/d9BF1JvzE7I?autoplay=1';
         iframe.frameborder = '0';
         iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
         iframe.allowfullscreen = true;
@@ -40,11 +40,11 @@ document.addEventListener("DOMContentLoaded", function () {
         // Limpa o conteúdo anterior
         contentContainer.innerHTML = '';
 
-        // Cria o iframe com o vídeo e define o tempo de início (por exemplo, 45 segundos)
+        // Cria o iframe com o vídeo
         const iframe = document.createElement('iframe');
         iframe.width = '1080';
         iframe.height = '720';
-        iframe.src = 'https://www.youtube.com/embed/Wg58WNfdn10?autoplay=1&start=45'; // Começa aos 45 segundos
+        iframe.src = 'https://www.youtube.com/embed/Wg58WNfdn10?autoplay=1';
         iframe.frameborder = '0';
         iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
         iframe.allowfullscreen = true;
