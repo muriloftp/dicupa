@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const iframe = document.createElement('iframe');
         iframe.width = '1080';
         iframe.height = '720';
-        iframe.src = 'https://www.youtube.com/embed/d9BF1JvzE7I?autoplay=1&start=20'; // Começa aos 20 segundos
+        iframe.src = 'https://www.youtube.com/embed/d9BF1JvzE7I?autoplay=1'; // Começa aos 20 segundos
         iframe.frameborder = '0';
         iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
         iframe.allowfullscreen = true;
